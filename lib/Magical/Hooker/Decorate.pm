@@ -22,7 +22,7 @@ __END__
 
 =head1 NAME
 
-Magical::Hooker::Decorate - Decoarte an SV using magic hooks
+Magical::Hooker::Decorate - Decorate an SV using magic hooks
 
 =head1 SYNOPSIS
 
@@ -117,7 +117,7 @@ Get the C<MAGIC> entry in which the decoration is stored.
 
 =head1 THANKS
 
-Shawn M Moore (he knows why()
+Shawn M Moore (he knows why)
 
 =head1 VERSION CONTROL
 
