@@ -12,6 +12,7 @@ all_from 'lib/Magical/Hooker/Decorate.pm';
 requires 'parent';
 configure_requires 'ExtUtils::Depends' => 0.302; #minimum version that works on Win32+gcc
 test_requires 'Test::More';
+test_requires 'Test::use::ok';
 
 my $pkg = ExtUtils::Depends->new('Magical::Hooker::Decorate');
 $pkg->install('magical_hooker_decorate.h');
